@@ -1,0 +1,42 @@
+.bg-container {
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(#ff6e7f, #bfe9ff);
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  border-radius: 15px;
+}
+
+.number-status {
+  font-family: 'Roboto';
+  color: #334155;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.button {
+  background-color: #ffffff;
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 8px;
+  border-style: none;
+  width: 150px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 600px;
+  }
+}
